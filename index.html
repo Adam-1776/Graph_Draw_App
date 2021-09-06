@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Graph Maker</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <script src="scripts/main2.js" defer></script>
+  </head>
+  <body onload="checkDirection();">
+    <h1>Graph Maker</h1>
+    <p class="intro">Learn Graph Theory Hands On! </p>
+    <div id="mynetwork"></div>
+    <div id="controlPanel">
+    <div class="changeEdgeType">
+      <p>Add Undirected Edges<br>(Default)</p>
+      <label class="switch" for="directedSwitch">
+        <input type="checkbox" id="directedSwitch">
+        <span class="slider round"></span>
+      </label>
+      <p>Add Directed Edges</p>
+    </div>
+      <div id="clear">
+        <button id="clearbtn">Delete Graph</button>
+      </div>
+    </div>
+    <p class="prompt">Experiment with the graph above, or delete it and draw your own!</p>
+    <div id="submit">
+        <button id="submitbtn">Analyze</button>
+    </div>
+    <div id="analysis"></div>
+  </body>
+</html>
