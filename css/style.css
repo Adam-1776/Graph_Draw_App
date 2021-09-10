@@ -1,6 +1,5 @@
 html {
  font-family: 'Open Sans', sans-serif;
- background-image: ;
  color: whitesmoke;
  text-decoration: lightgray;
 }
@@ -17,6 +16,7 @@ body{
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,43,129,0.7217087518601191) 55%, rgba(0,212,255,1) 100%); 
   padding: 0 20px 20px 20px;
+  margin-bottom: 15px;
 
 }
 
@@ -37,7 +37,14 @@ h1{
   padding: 5px;
   color: whitesmoke;
 }
-
+h2{
+  font-size: 23px;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0;
+  padding: 20px 0;
+}
 .intro{
   margin-top: 0px;
   font-size: 16px;
@@ -219,19 +226,13 @@ h1{
   margin-bottom: 11px;
 }
 
-
-
-
-
-
-
 .surround{
   margin: 15px;
   padding: 20px;
   border: #000000;
   border-style: solid;
   border-radius: 0%;
-  width: 71em;
+  width: 70vw;
 }
 
 .hidden{
@@ -246,6 +247,7 @@ h1{
 }
 
 #mindistance label{
+  text-align: center;
   font-size: 16px;
   font-weight: bolder;
 }
@@ -274,6 +276,7 @@ h1{
 }
 
 #cycle{
+  text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
